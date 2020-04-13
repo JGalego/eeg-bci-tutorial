@@ -18,6 +18,22 @@ To all the developers who have contributed to these modules:
 
 <img src="https://media.giphy.com/media/WV9Xx9itqEIu8GQloO/giphy.gif" width="400"/>
 
+### Running with Docker
+
+Build the image
+
+```bash
+docker build --rm --no-cache eegbci_tutorial .
+```
+
+Run it
+
+```bash
+docker run -p 8888:8888 -e NB_UID=$(id -u) eegbci_tutorial
+````
+
+Navigate to [http://localhost:8888/?token=`TOKEN`](http://localhost:8888/?token=TOKEN).
+
 ### References
 
 #### Books
