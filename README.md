@@ -1,5 +1,7 @@
 ## Tutorial: Signal Processing and Machine Learning for EEG-based BCI Systems
 
+[![Build Status](https://travis-ci.org/JGalego/eeg-bci-tutorial.svg?branch=master)](https://travis-ci.org/JGalego/eeg-bci-tutorial)
+
 ### Overview
 
 In this tutorial, we will review some common [signal processing](https://en.wikipedia.org/wiki/Signal_processing) and [machine learning](https://en.wikipedia.org/wiki/Machine_learning) techniques that have been used in [EEG](https://en.wikipedia.org/wiki/Electroencephalography)-based [brain-computer interface](https://en.wikipedia.org/wiki/Brain–computer_interface) (BCI) systems to translate brain signals into messages and commands.
